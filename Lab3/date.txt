@@ -1,4 +1,0 @@
-gheorghe marin 17 03 1979 2000 0 7 8
-vasile alexandru 18 04 1989 3000 1 9
-popescu ion 29 05 1993 4000 2 10
-ionescu grigore 14 03 1977 2 9
