@@ -33,7 +33,7 @@ typedef struct persoana
 
 pers tab[20];
 
-int citire(pers tab[], int j)
+int citire(pers tab[])
 {
     FILE *f;
     int i=0;
@@ -43,7 +43,7 @@ int citire(pers tab[], int j)
     } 
     else 
     {
-        while (i<j) 
+        while (!feof(f))
         {
             fscanf(f, "%s %s %d %d %d %d %d", tab[i].nume, tab[i].prenume, &tab[i].zi, &tab[i].luna,
             &tab[i].an, &tab[i].salariu, &tab[i].tip);
@@ -149,9 +149,7 @@ int main()
         switch(opt)
         {
             case 1: 
-            printf("Cate persoane doriti sa cititi? ");
-            scanf("%d",&j);
-            citire(tab,j);
+            j=citire(tab);
             break;
             case 2: 
             afisare(tab,j);
