@@ -1,0 +1,4 @@
+Vasile Marin 20 04 1998 2000 0 9.89 7.8
+Grigore Alexandru 24 05 1979 5000 1 10
+Popescu Ion 27 04 1989 3000 2 9
+Gheorghe Vasile 12 02 1990 2000 2 8
