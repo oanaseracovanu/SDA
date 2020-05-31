@@ -130,7 +130,6 @@ void insertie_binara (int a[], int N)
 
       a[s] = aux;
 
-
     }
 
 }
@@ -257,7 +256,7 @@ void sort_Quick(int a[],int st, int dr)
         sort_Quick(a,i,dr);
 }
 
-void  Radix_Direct(int a[],int N)
+void Radix_Direct(int a[],int N)
 {
 	int b=8*sizeof(int);
 	int m=4;

@@ -1,0 +1,14 @@
+caramida 11 1 23 33
+ciment 21 2 45 38
+lemn 31 3 21 34
+beton 12 1 32 23
+polistiren 22 2 65 67
+fier 25 3 55 44
+otel 64 2 34 43
+marmura 132 1 53 54
+rigips 145 3 54 53
+adeziv 24 2 60 20
+var 74 2 53 50
+tinci 456 1 32 34
+ipsos 63 3 36 65
+boltari 125 1 59 58
